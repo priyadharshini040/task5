@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+    .parent{
+        height:500px ;
+    width:100%;
+    margin: auto;
+    border:2px solid red ;
+    /* position: relative; */
+}
+.box-1{
+    height:200px ;
+    width:150px ;
+    position:absolute;
+    top:2px ;
+    bottom:70px ;
+    z-index: 1;
+    background-color: black;
+}
+.box-2{
+    height: 175px;
+    width:230px ;
+    position:absolute;
+    top:60px ;
+    bottom:70px ;
+    z-index: 0;
+    background-color:green ;
+}
